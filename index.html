@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marine Life Explorer</title>
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS Link -->
+</head>
+<body>
+    <header>
+        <h1>Marine Life Explorer</h1>
+    </header>
+    <div id="map-container">
+        <!-- Map will be rendered here -->
+    </div>
+    <aside>
+        <div class="tabs">
+            <button class="tab" id="overview-tab">Overview</button>
+            <button class="tab" id="organisms-tab">Organisms</button>
+            <button class="tab" id="impacts-tab">Impacts</button>
+            <button class="tab" id="search-tab">Search</button>
+        </div>
+    </aside>
+    <div id="modal" style="display:none;">
+        <span id="close-modal">&times;</span>
+        <div id="modal-content">
+            <!-- Organism details will be displayed here -->
+        </div>
+    </div>
+    <script src="script.js"></script> <!-- External JS Link -->
+</body>
+</html>
